@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!--Tailwind css-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-2xl sticky top-0 z-10">
+        <h1 class="text-2xl">GREENDEN</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-6 w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+
+        <ul class="text-gray-600 flex gap-5 hidden md:flex">
+            <li><a class="hover:text-black hover:underline" href="index.html">Home</a></li>
+            <li><a class="hover:text-black hover:underline" href="product.html">Products</a></li>
+            <li><a class="hover:text-black hover:underline" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--Contact Section-->
+    <section class="text-center p-4">
+        <h1 class="font-bold text-3xl mt-5">Contact Us</h1>
+        <p class="mt-2">We would love to hear from you! Please fill out the form below.</p>
+
+        <form class="mt-5 max-w-lg mx-auto">
+            <input class="border border-black p-2 w-full mb-4" type="text" placeholder="Your Name" required>
+            <input class="border border-black p-2 w-full mb-4" type="email" placeholder="Your Email" required>
+            <textarea class="border border-black p-2 w-full mb-4" rows="4" placeholder="Your Message" required></textarea>
+            <button class="bg-green-500 text-white p-2 rounded" type="submit">Send Message</button>
+        </form>
+
+        <div class="mt-10">
+            <h2 class="font-bold text-xl">Contact Information</h2>
+            <p>Email: support@greenden.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+    </section>
+
+    <!--footer-->
+    <section class="mt-5 bg-green-100 p-10">
+
+        <h1 class="text-3xl font-bold">GREENDEN</h1>
+
+        <p class="mt-5">The standard chunk of Lorem Picsum used since the 1500s is reproduced below for those interest</p>
+
+        <p class="mt-5">@ 2025 Greenden.com</p>
+
+    </section>
+</body>
